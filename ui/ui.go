@@ -1,9 +1,9 @@
 package ui
 
 import (
-	"github.com/nraval1729/termnews/news"
 	"fmt"
 	"github.com/jroimartin/gocui"
+	"github.com/nraval1729/termnews/news"
 	"github.com/pkg/browser"
 	"math"
 	"strings"

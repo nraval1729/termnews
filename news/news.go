@@ -11,7 +11,6 @@ import (
 const apiBaseUrl = "https://newsapi.org/v2/top-headlines"
 const apiPageSizeParam = "100"
 
-// Built automagically using json-to-go: https://mholt.github.io/json-to-go/
 type Resp struct {
 	Status       string    `json:"status"`
 	TotalResults int       `json:"totalResults"`
@@ -51,7 +50,6 @@ func FetchPeriodically() error {
 		for {
 			select {
 			case <-ticker.C:
-				fmt.Print("fetching!")
 				nr, _ = fetchNewsFromAPI(c)
 			}
 		}
