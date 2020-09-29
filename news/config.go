@@ -14,7 +14,7 @@ type config struct {
 	Sources          []string `yaml:"sources"`
 	Categories       []string `yaml:"categories"`
 	Country          string   `yaml:"country"`
-	RefreshFrequency int      `yaml:"refresh_frequency"`
+	RefreshFrequency int      `yaml:"refreshFrequency"`
 }
 
 const defaultRefreshFrequency = 15
