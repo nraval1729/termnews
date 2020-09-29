@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./news"
-	"./ui"
+	"github.com/nraval1729/termnews/news"
+	"github.com/nraval1729/termnews/ui"
 )
 
 func main() {

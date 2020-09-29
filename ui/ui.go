@@ -1,7 +1,7 @@
 package ui
 
 import (
-	"../news"
+	"github.com/nraval1729/termnews/news"
 	"fmt"
 	"github.com/jroimartin/gocui"
 	"github.com/pkg/browser"
