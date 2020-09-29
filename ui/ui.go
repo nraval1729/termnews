@@ -87,6 +87,7 @@ func layoutArticles(g *gocui.Gui, nr *news.Resp) error {
 	v.Clear()
 
 	fmt.Fprintf(v, constructArticlesData(nr))
+	fmt.Fprintf(v, getShortcutsHelpText())
 
 	return nil
 }
@@ -185,6 +186,11 @@ func prevPage(g *gocui.Gui, v *gocui.View) error {
 // Utilities
 func getArticlesViewTitle(totalArticles int) string {
 	return fmt.Sprintf(" %s (%d/%d) ", articlesViewTitle, getCurrPage()+1, getTotalPageCount(totalArticles))
+}
+
+func getShortcutsHelpText() string {
+	return fmt.Sprintf("\n\n\nCtrlA/CtrlD [prev/next page], Cursor Up/Down [up/down one article], Cursor Right [open article in browser]")
+
 }
 
 func getTotalPageCount(totalArticles int) int {
