@@ -6,6 +6,8 @@
  It also keeps the news data updated by periodically fetching the latest news in the background to ensure that you always get the latest news.
  Finally, it lets you open the articles in your browser by using keyboard shortcuts (defined below)
  
+ # Screenshot
+ ![termnews_image.png](https://user-images.githubusercontent.com/12673171/94588022-044bd180-02a1-11eb-907d-26cf9f1a1400.png)
 
 # Features
  - Customizable news sources, categories and region
