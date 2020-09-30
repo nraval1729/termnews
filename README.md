@@ -6,8 +6,7 @@
  It also keeps the news data updated by periodically fetching the latest news in the background to ensure that you always get the latest news.
  Finally, it lets you open the articles in your browser by using keyboard shortcuts (defined below)
  
- # Screenshot
- ![termnews_image.png](https://user-images.githubusercontent.com/12673171/94588022-044bd180-02a1-11eb-907d-26cf9f1a1400.png)
+ ![termnews.gif](https://imgur.com/7mjzvoM.gif)
 
 # Features
  - Customizable news sources, categories and region
@@ -15,6 +14,7 @@
  - In built pagination
  - Ability to open articles in your browser for a detailed read
  - Periodic background updates, so you always see the latest and greatest news
+ - Works on multiple terminal emulators (tested on iterm, alacritty, Mac terminal)
   
  
 # Getting started
