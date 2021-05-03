@@ -61,7 +61,7 @@ This will fetch tell `termnews` to fetch `technology`, `business` and `science` 
 
 ```
 apiKey: <your_API_key>
-categories: [technology
+categories: [technology]
 country: in
 refreshFrequency: 5
 ```
